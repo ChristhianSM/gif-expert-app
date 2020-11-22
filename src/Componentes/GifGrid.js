@@ -12,6 +12,7 @@ export const GifGrid = ({category}) => {
     return (
         <>
             <h2 className = "animate__animated animate__fadeIn">{category}</h2>
+            <hr></hr>
             {
                 loading && <p className = "animate__animated animate__flash">Loading ...</p>
             }
